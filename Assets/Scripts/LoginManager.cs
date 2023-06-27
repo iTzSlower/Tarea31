@@ -9,16 +9,6 @@ public class LoginManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //tropheo();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-    void tropheo()
-    {
         GameJoltUI.Instance.ShowSignIn((bool signedIn) =>
         {
             if (signedIn)
